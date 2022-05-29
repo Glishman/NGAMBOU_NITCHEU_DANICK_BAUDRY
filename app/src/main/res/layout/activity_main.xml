@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/EditText01"
+        android:layout_width="fill_parent"
+        android:layout_height="74dp"
+        android:background="#fff"
+        android:gravity="right|center_vertical"
+        android:textSize="48sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:minHeight="2dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:minHeight="2dp"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:minHeight="2dp"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:minHeight="2dp"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/buttonMoins"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="-"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/buttonMultiplier"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="*"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/buttonPoint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="C"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:angle="90"
+            android:background="@drawable/button"
+            android:text="/"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonEgal"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:angle="90"
+        android:background="@drawable/button"
+        android:text="="
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+</LinearLayout>
